@@ -1,8 +1,8 @@
-import logo from './logo.svg';
-import './App.css';
-import Home from './pages/Home';
+import logo from "./logo.svg";
+import "./App.css";
+import Home from "./pages/Home";
 import Login from "./pages/Login";
-
+import Register from "./pages/Register";
 
 function App() {
   return (
@@ -23,6 +23,7 @@ function App() {
         <Home />
       </header>
       <Login />
+      <Register />
     </div>
   );
 }
