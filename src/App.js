@@ -1,8 +1,9 @@
-import logo from './logo.svg';
-import './App.css';
-import Home from './pages/Home';
+import logo from "./logo.svg";
+import "./App.css";
+import Home from "./pages/Home";
 import Login from "./pages/Login";
-
+import ThirdPage from "./pages/ThirdPage";
+import FourthPage from "./pages/FourthPage"
 
 function App() {
   return (
@@ -23,6 +24,8 @@ function App() {
         <Home />
       </header>
       <Login />
+      <ThirdPage />
+      <FourthPage />
     </div>
   );
 }
